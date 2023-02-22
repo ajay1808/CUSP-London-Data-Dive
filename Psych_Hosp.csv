@@ -1,0 +1,66 @@
+,ID,Borough,Name,Psych_Hosp,lower_95CL.27,upper_95CL.27
+0,0,City,NYC,676.0,670.0,682.5
+1,1,NYC,Manhattan,750.0,735.7,765.2
+2,2,NYC,Bronx,853.0,835.9,870.7
+3,3,NYC,Brooklyn,684.0,672.5,695.5
+4,4,NYC,Queens,513.0,502.6,523.5
+5,5,NYC,Staten Island,707.0,678.9,734.9
+6,101,Manhattan,Financial District,318.0,264.7,370.7
+7,102,Manhattan,Greenwich Village and Soho,267.0,231.1,303.8
+8,103,Manhattan,Lower East Side and Chinatown,632.0,590.1,673.2
+9,104,Manhattan,Clinton and Chelsea,861.0,804.3,918.6
+10,105,Manhattan,Midtown,562.0,490.1,634.1
+11,106,Manhattan,Stuyvesant Town and Turtle Bay,1012.0,954.2,1070.4
+12,107,Manhattan,Upper West Side,370.0,339.2,399.9
+13,108,Manhattan,Upper East Side,304.0,276.0,331.2
+14,109,Manhattan,Morningside Heights and Hamilton Heights,726.0,668.9,783.4
+15,110,Manhattan,Central Harlem,993.0,928.2,1057.3
+16,111,Manhattan,East Harlem,1901.0,1813.4,1988.1
+17,112,Manhattan,Washington Heights and Inwood,565.0,527.8,601.9
+18,201,Bronx,Mott Haven and Melrose,940.0,867.4,1011.9
+19,202,Bronx,Hunts Point and Longwood,919.0,825.4,1013.1
+20,203,Bronx,Morrisania and Crotona,1435.0,1342.2,1527.5
+21,204,Bronx,Highbridge and Concourse,862.0,807.6,915.5
+22,205,Bronx,Fordham and University Heights,961.0,899.9,1021.4
+23,206,Bronx,Belmont and East Tremont,1160.0,1073.9,1245.8
+24,207,Bronx,Kingsbridge Heights and Bedford,719.0,669.0,769.1
+25,208,Bronx,Riverdale and Fieldston,534.0,483.6,584.2
+26,209,Bronx,Parkchester and Soundview,612.0,570.2,653.1
+27,210,Bronx,Throgs Neck and Co-op City,438.0,394.3,481.3
+28,211,Bronx,Morris Park and Bronxdale,769.0,711.4,827.4
+29,212,Bronx,Williamsbridge and Baychester,669.0,622.0,715.9
+30,301,Brooklyn,Greenpoint and Williamsburg,440.0,403.7,475.5
+31,302,Brooklyn,Fort Greene and Brooklyn Heights,648.0,594.8,701.2
+32,303,Brooklyn,Bedford Stuyvesant,1002.0,944.5,1059.4
+33,304,Brooklyn,Bushwick,574.0,522.7,624.8
+34,305,Brooklyn,East New York and Starrett City,1113.0,1056.2,1169.9
+35,306,Brooklyn,Park Slope and Carroll Gardens,402.0,353.6,450.7
+36,307,Brooklyn,Sunset Park,401.0,361.5,440.6
+37,308,Brooklyn,Crown Heights and Prospect Heights,1149.0,1072.8,1224.7
+38,309,Brooklyn,South Crown Heights and Lefferts Gardens,1102.0,1027.4,1177.5
+39,310,Brooklyn,Bay Ridge and Dyker Heights,362.0,325.8,398.6
+40,311,Brooklyn,Bensonhurst,366.0,335.9,395.6
+41,312,Brooklyn,Borough Park,375.0,341.4,408.0
+42,313,Brooklyn,Coney Island,765.0,703.8,826.6
+43,314,Brooklyn,Flatbush and Midwood,600.0,556.7,643.3
+44,315,Brooklyn,Sheepshead Bay,331.0,298.9,362.5
+45,316,Brooklyn,Brownsville,1897.0,1787.5,2006.7
+46,317,Brooklyn,East Flatbush,800.0,748.5,852.1
+47,318,Brooklyn,Flatlands and Canarsie,534.0,496.1,572.1
+48,401,Queens,Long Island City and Astoria,544.0,508.0,579.6
+49,402,Queens,Woodside and Sunnyside,223.0,194.7,251.8
+50,403,Queens,Jackson Heights,321.0,291.1,350.3
+51,404,Queens,Elmhurst and Corona,440.0,406.1,474.2
+52,405,Queens,Ridgewood and Maspeth,299.0,268.9,329.4
+53,406,Queens,Rego Park and Forest Hills,342.0,301.5,382.1
+54,407,Queens,Flushing and Whitestone,362.0,335.0,388.8
+55,408,Queens,Hillcrest and Fresh Meadows,532.0,490.3,573.5
+56,409,Queens,Kew Gardens and Woodhaven,479.0,439.0,519.8
+57,410,Queens,South Ozone Park and Howard Beach,488.0,442.8,532.6
+58,411,Queens,Bayside and Little Neck,271.0,235.7,307.0
+59,412,Queens,Jamaica and Hollis,758.0,717.0,798.9
+60,413,Queens,Queens Village,648.0,605.2,690.1
+61,414,Queens,Rockaway and Broad Channel,1158.0,1086.5,1229.2
+62,501,Staten Island,St. George and Stapleton,963.0,910.2,1014.9
+63,502,Staten Island,South Beach and Willowbrook,605.0,554.8,654.5
+64,503,Staten Island,Tottenville and Great Kills,394.0,357.4,430.6
