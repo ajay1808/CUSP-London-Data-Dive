@@ -3,13 +3,13 @@
 ## Walking the City: Analysis of the Built Environment on Mental Health in NYC
 
 ### Team Members:
-Akshay Shetty - as16477@nyu.edu
-Shantanu Anikhindi - saa9213@nyu.edu
-Ajayrangan Kasturirangan - ak10196@nyu.edu
-Maria Lucia Cornejo Quenaya - mlc9958@nyu.edu
-Vickram Peter - vp2379@nyu.edu
-Sharvari Deshpande - sd5270@nyu.edu
-Anshika Gupta - anshika.gupta@nyu.edu
+- Akshay Shetty - as16477@nyu.edu
+- Shantanu Anikhindi - saa9213@nyu.edu
+- Ajayrangan Kasturirangan - ak10196@nyu.edu
+- Maria Lucia Cornejo Quenaya - mlc9958@nyu.edu
+- Vickram Peter - vp2379@nyu.edu
+- Sharvari Deshpande - sd5270@nyu.edu
+- Anshika Gupta - anshika.gupta@nyu.edu
 
 ## Abstract
 The relationship between the built environment and mental health has been a topic of growing interest in urban research. In this study, the impact of six different metrics of the built environment on walkability and mental health in New York City (NYC) is investigated. Specifically, the presence of trees on the streets, restaurants in the areas, street lights, building height, smoke shops, and liquor shops in the streets are examined. The hypothesis is that a more walkable city improves mental health, and the aim is to identify which metrics have the most significant influence. The results provide insights into how specific metrics of the built environment can impact mental health and walkability in urban settings. These findings could inform policies aimed at promoting a more walkable and mentally healthy city in NYC and beyond.
