@@ -67,6 +67,7 @@ Mental health
 
 Maps and Charts
 Source: https://thrivenyc.cityofnewyork.us/wp-content/uploads/2019/08/Thrive-Roadmap.pdf
+Kepler: https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/fpxmxqxjujxrafy/keplergl_4ciz9e.json
 
 When we were first approached with the question of mental health, especially in our city of New York, our team unanimously pondered upon the belief that the experience of walking in the city impacted all of us in varying amounts. We wanted to find out how walking (in a world where walkable cities is a buzz-word) affects the mental health of a citizen?
 
