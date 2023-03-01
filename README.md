@@ -29,20 +29,19 @@ This study aimed to investigate the impact of six different metrics of the built
 The dataset available at the given link contains information on the trees in New York City collected during the 2015 Street Tree Census conducted by the Department of Parks and Recreation. It includes data on the species, diameter, condition, and location of trees on the streets, sidewalks, and other public areas throughout the city.
 
 *Restaurants* - DOHMH-New-York-City-Restaurant-Inspection-Results 
-The DOHMH New York City Restaurant Inspection Results dataset provides restaurant inspection scores and violation details for over 25,000 food establishments in New York City. The dataset includes the restaurant name, address, cuisine type, inspection date, score, grade, and violations found during the inspection.
-[Data Processing](https://github.com/ajay1808/CUSP-London-Data-Dive/blob/main/DataDive-2.ipynb)
+The DOHMH New York City Restaurant Inspection Results dataset provides restaurant inspection scores and violation details for over 25,000 food establishments in New York City. The dataset includes the restaurant name, address, cuisine type, inspection date, score, grade, and violations found during the inspection. [Data Processing](https://github.com/ajay1808/CUSP-London-Data-Dive/tree/main/restaurant)
 
 *Sunlight* - Project Sunroof: Estimated Rooftop Solar Potential
-The map displays the amount of sunlight that hits rooftops in the selected area, as well as the estimated energy output of installing solar panels on those rooftops. The data is based on a number of factors, such as weather patterns, roof orientation and shading, and the amount of available space for solar panels.
+The map displays the amount of sunlight that hits rooftops in the selected area, as well as the estimated energy output of installing solar panels on those rooftops. The data is based on a number of factors, such as weather patterns, roof orientation and shading, and the amount of available space for solar panels.[Data Processing](https://github.com/ajay1808/CUSP-London-Data-Dive/blob/main/notebooks/Solar_potential.ipynb)
 
 *Building height* - Building Footprints Data 
-Shapefile of footprint outlines of buildings in New York City. The data includes information on over one million buildings across the five boroughs of New York City. 
+Shapefile of footprint outlines of buildings in New York City. The data includes information on over one million buildings across the five boroughs of New York City. [Data Processing](https://github.com/ajay1808/CUSP-London-Data-Dive/blob/main/notebooks/Building%20Heights%20-%20NYC.ipynb)
 
 *Smoke Shops* - Active Tobacco Retailer Map
-This map is a listing of active retail tobacco vendors.This data includes the name, subcategory, and location of active retail tobacco vendors operating in New York State. Subcategory includes the type of retail tobacco vendor, such as a convenience store or a grocery supermarket. Address includes the street address, city, state, zip code, municipality, and county where the vendor is located. 
+This map is a listing of active retail tobacco vendors.This data includes the name, subcategory, and location of active retail tobacco vendors operating in New York State. Subcategory includes the type of retail tobacco vendor, such as a convenience store or a grocery supermarket. Address includes the street address, city, state, zip code, municipality, and county where the vendor is located. [Data Processing](https://github.com/ajay1808/CUSP-London-Data-Dive/tree/main/smoke) 
 
 *Liquor Shops* - Liquor-Authority-Current-List-of-Active-Licenses 
-This dataset contains information on all active liquor licenses in the state of New York. The data includes the license type (e.g. on-premises, off-premises, manufacturing), the name and address of the licensed business, the license number, and the date of the license issue. 
+This dataset contains information on all active liquor licenses in the state of New York. The data includes the license type (e.g. on-premises, off-premises, manufacturing), the name and address of the licensed business, the license number, and the date of the license issue. []()
 
 *Sidewalk Width* - Sidewalk | NYC Open Data
 This dataset contains information on sidewalks throughout the five boroughs of New York City. The data includes the location and condition of sidewalks, as well as any associated defects or violations. The dataset also includes information on permits for sidewalk construction or maintenance, as well as inspections and complaints related to sidewalks.
@@ -53,8 +52,10 @@ This dataset contains the geographic locations and attributes of streets, highwa
 The dataset contains service requests that are categorized into street light issues, and other non-emergency problems that require the attention of a city agency.   The dataset is updated daily and provides detailed information about the service requests, including the date and time of the request, the location of the request, the type of service requested, and the agency responsible for fulfilling the request. 
 
 
-[Final Output Datasets](https://github.com/ajay1808/CUSP-London-Data-Dive/tree/main/csv-files)
-[Data Compilation](https://github.com/ajay1808/CUSP-London-Data-Dive/blob/main/notebooks/Final%20Merge.ipynb)
+[Final Output Datasets](https://github.com/ajay1808/CUSP-London-Data-Dive/tree/main/csv-files),
+
+[Data Compilation](https://github.com/ajay1808/CUSP-London-Data-Dive/blob/main/notebooks/Final%20Merge.ipynb),
+
 [Compiled Data](https://github.com/ajay1808/CUSP-London-Data-Dive/blob/main/csv-files/merged_df.csv)
 
 
