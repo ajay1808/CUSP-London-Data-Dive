@@ -96,7 +96,7 @@ How much does the built environment affect the mental health of the citizens in 
 
 While we lacked sufficient volume of Mental Health data in NYC, we decided to source our info straight from a government health survey to figure out the sampling. EDP stands for "emotionally disturbed person" in 911 calls. It refers to an individual who is experiencing a behavioral, emotional, or mental health crisis and requires assistance from emergency responders. EDP calls are handled by specially trained emergency medical services (EMS) personnel and may involve mental health professionals, police officers, or other first responders.
 
-[EDP Calls Distribution](https://github.com/ajay1808/CUSP-London-Data-Dive/blob/main/choropleths/Normalized%20EDP%20Calls_density_map.html)
+[EDP Calls Distribution](https://nbviewer.org/github/ajay1808/CUSP-London-Data-Dive/blob/main/choropleths/Normalized%20EDP%20Calls_density_map.html)
 
 As they say, 90% of the data science project is just data engineering.
 The data comes from a huge range of sources. We needed to standardize all of it effectively such that our regression and clustering models would be easy to apply. Here are the 4 steps of the entire data engineering process.
