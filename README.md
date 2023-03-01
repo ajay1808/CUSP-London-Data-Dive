@@ -11,19 +11,26 @@
 - Sharvari Deshpande - sd5270@nyu.edu
 - Anshika Gupta - anshika.gupta@nyu.edu
 
+Presentation: https://github.com/ajay1808/CUSP-London-Data-Dive/blob/main/London%20Data%20Dive%20Presentation.pptx
+
 ## Abstract
-The relationship between the built environment and mental health has been a topic of growing interest in urban research. In this study, the impact of six different metrics of the built environment on walkability and mental health in New York City (NYC) is investigated. Specifically, the presence of trees on the streets, restaurants in the areas, street lights, building height, smoke shops, and liquor shops in the streets are examined. The hypothesis is that a more walkable city improves mental health, and the aim is to identify which metrics have the most significant influence. The results provide insights into how specific metrics of the built environment can impact mental health and walkability in urban settings. These findings could inform policies aimed at promoting a more walkable and mentally healthy city in NYC and beyond.
-Background and Motivation
-Urbanization has led to a rise in the number of people living in cities. The built environment of cities, which includes the physical structures, streets, parks, and other public spaces, plays a critical role in the health and well-being of city residents. The relationship between the built environment and mental health has been a topic of growing interest in urban research. Previous studies have suggested that the built environment can influence mental health outcomes through various mechanisms, including social interaction, physical activity, and exposure to nature.
-Walkability, which refers to the extent to which a city or neighborhood is designed to facilitate walking, has emerged as an important aspect of the built environment that can influence mental health. A walkable city or neighborhood is one that is designed with features such as well-maintained sidewalks, street lighting, and easy access to shops and services. Research has shown that walkable neighborhoods can increase physical activity, social interaction, and access to nature, all of which are associated with better mental health outcomes.
-New York City is a highly urbanized city with a diverse population. Walking is a common mode of transportation in NYC, and many residents explore the city on foot. However, the city's built environment varies widely across neighborhoods, with some areas having more walkable features than others. Therefore, understanding the impact of specific built environment metrics on walkability and mental health in NYC can inform policies aimed at promoting a more walkable and mentally healthy city.
+This study aimed to investigate the impact of six different metrics of the built environment on walkability and mental health in New York City (NYC) and identify which metrics have the most significant influence. The study utilized data from NYC Open Data, the American Community Survey, and 911 calls and employed various statistical methods such as multiple linear regression and clustering analysis. The results revealed that the presence of trees, street lights, and restaurants have a positive impact on walkability and mental health, while smoke shops and liquor shops have a negative impact. Building height has a mixed effect, depending on the neighborhood. The analysis of 911 calls data provided further evidence of the impact of the built environment on mental health. Specifically, areas with lower walkability scores had a higher number of mental health-related emergency calls. Overall, the study provides insights into how specific metrics of the built environment can impact mental health and walkability in urban settings. The findings could inform policies aimed at promoting a more walkable and mentally healthy city in NYC and beyond. The study highlights the need for city planners and policymakers to prioritize the creation of a more walkable city, with a focus on improving the built environment and enhancing the conditions that contribute to positive mental health outcomes. The regression analysis showed that factors such as smoke shops, restaurants, sidewalk width, and trees correlated with increased calls in the area, indicating places with higher activity or mobility. In contrast, factors such as street light condition complaints, sidewalk condition complaints, and average building height correlated with decreased calls in the area, indicating areas where most complaints are registered and hence more likely to have repair work. Furthermore, clustering analysis revealed three clusters of zip codes based on the built environment variables, with Cluster 2 resembling the income-based clustering of NYC. This highlights the relationship between the built environment and income level of a zip code. Overall, the study provides valuable insights into how the built environment can impact mental health and walkability in urban settings and the need for policymakers to prioritize creating a more walkable and mentally healthy city.
+
+
+
+
+
 
 ## Data Collection And Datasets
+
+
+
 *Trees* - Street-Tree-Census-Tree-Data 
-The dataset available at the given link contains information on the trees in New York City collected during the 2015 Street Tree Census conducted by the Department of Parks and Recreation. It includes data on the species, diameter, condition, and location of trees on the streets, sidewalks, and other public areas throughout the city. 
+The dataset available at the given link contains information on the trees in New York City collected during the 2015 Street Tree Census conducted by the Department of Parks and Recreation. It includes data on the species, diameter, condition, and location of trees on the streets, sidewalks, and other public areas throughout the city.
 
 *Restaurants* - DOHMH-New-York-City-Restaurant-Inspection-Results 
 The DOHMH New York City Restaurant Inspection Results dataset provides restaurant inspection scores and violation details for over 25,000 food establishments in New York City. The dataset includes the restaurant name, address, cuisine type, inspection date, score, grade, and violations found during the inspection.
+[Data Processing](https://github.com/ajay1808/CUSP-London-Data-Dive/blob/main/DataDive-2.ipynb)
 
 *Sunlight* - Project Sunroof: Estimated Rooftop Solar Potential
 The map displays the amount of sunlight that hits rooftops in the selected area, as well as the estimated energy output of installing solar panels on those rooftops. The data is based on a number of factors, such as weather patterns, roof orientation and shading, and the amount of available space for solar panels.
@@ -44,6 +51,11 @@ This dataset contains the geographic locations and attributes of streets, highwa
 
 *Sidewalk and Street Lights Complaints* - 311 Service Requests | NYC Open Data 
 The dataset contains service requests that are categorized into street light issues, and other non-emergency problems that require the attention of a city agency.   The dataset is updated daily and provides detailed information about the service requests, including the date and time of the request, the location of the request, the type of service requested, and the agency responsible for fulfilling the request. 
+
+
+[Final Output Datasets](https://github.com/ajay1808/CUSP-London-Data-Dive/tree/main/csv-files)
+[Data Compilation](https://github.com/ajay1808/CUSP-London-Data-Dive/blob/main/notebooks/Final%20Merge.ipynb)
+[Compiled Data](https://github.com/ajay1808/CUSP-London-Data-Dive/blob/main/csv-files/merged_df.csv)
 
 
 ## Current state of NYC
@@ -98,9 +110,8 @@ Now that we have this one massive merged dataset, we could run two of the proces
 
 We’ve ensured that the data is now spatially weighted by  (based upon population).
 
--> [DISCUSS the additional datasets (the plotting of the individual regressor if needed).
 
-We must take a moment here to mention that while this is the best source we could find openly and in the given time for this data project, we understand that there may be bias that slips into the data based on reporting. An example is the 311 (an equivalent of 101) database where socio-spatial and racial disparities can creep into decision-making. (Give an example if you want!).
+We must take a moment here to mention that while this is the best source we could find openly and in the given time for this data project, we understand that there may be bias that slips into the data based on reporting. An example is the 311 (an equivalent of 101) database where socio-spatial and racial disparities can creep into decision-making.
 
 Now that we’ve showcased the data processing to ensure our data is as accurate as possible, we decided to run two programs: 
 Regression of the built environment as variables and the EDP call numbers as output (as a proxy for mental health).
